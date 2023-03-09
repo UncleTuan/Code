@@ -5,6 +5,9 @@ type Book {
     pageCount: Int
     author: Author
 }
+{
+    
+}
 
 extend type Query {
     findAllBooks: [Book]!
